@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8d7da;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f7c2c4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar .logo {
+    text-align: center;
+}
+
+.sidebar .logo h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.sidebar .logo p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.sidebar .user-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sidebar .user-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar .user-info p {
+    margin: 0;
+}
+
+.sidebar .user-info span {
+    font-size: 0.8em;
+    color: #555;
+}
+
+.sidebar .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sidebar .menu a {
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.sidebar .menu a:hover,
+.sidebar .menu a.active {
+    /* background-color: #e4b0b2; */
+    background-color: white;
+}
+
+.main-content {
+    width: 60%;
+    padding: 20px;
+}
+
+.main-content header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-content header input {
+    padding: 5px;
+    width: 200px;
+}
+
+.main-content .widgets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.member-status {
+    margin-top: 20px;
+}
+
+.member-status table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.member-status th,
+.member-status td {
+    padding: 10px;
+    text-align: left;
+}
+
+.member-status th {
+    background-color: #f4baba;
+}
+
+.member-status td {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.member-status img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.right-panel {
+    width: 20%;
+    background-color: #f7c2c4;
+    padding: 20px;
+}
+
+.right-panel h3 {
+    margin-top: 0;
+}
+
+.right-panel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-panel li {
+    padding: 10px 0;
+}
+
+.right-panel .logout {
+    width: 100%;
+    padding: 10px;
+    background-color: #e4b0b2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right-panel .logout:hover {
+    background-color: #d89a9b;
+}
+
+
+
+
+
+
+
+/*  */
+
+.booking-management {
+    margin-top: 20px;
+    /* margin-bottom: 50px; */
+}
+
+.booking-management h3 {
+    margin-bottom: 10px;
+}
+
+.booking-management table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.booking-management th,
+.booking-management td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.booking-management th {
+    background-color: #f2f2f2;
+}
+
+.booking-management tr:hover {
+    background-color: #f1f1f1;
+}
+
+.booking-management button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+/* .edit-btn {
+    background-color: #FFC107;
+    color: white;
+} */
+
+.confirm-btn:hover {
+    background-color: white;
+}
+
+.cancel-btn:hover {
+    background-color: white;
+}
+
+/* .edit-btn:hover {
+    background-color: #e0a800;
+} */
+
+/* booking ena */
+
+/* Confirm */
+
+
+.confirm-booking {
+    margin-top: 10px;
+    /* margin-bottom: 50px; */
+}
+
+.confirm-booking h3 {
+    margin-bottom: 10px;
+}
+
+.confirm-booking table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.confirm-booking th,
+.confirm-booking td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.confirm-booking th {
+    background-color: #f2f2f2;
+}
+
+.confirm-booking tr:hover {
+    background-color: #f1f1f1;
+}
+
+.confirm-booking button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
